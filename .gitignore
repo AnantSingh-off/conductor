@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+/.env.local
+/.env.production
+/.env.test
+
+# Build output
+.next/
+out/
+
+# Output directories
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Supabase
+supabase/*.sql
+supabase/migrations/
+
+# Local uploads
+uploads/
+
+# Analytics/Crash reporting
+*.buster
+*.jsonl
+
+# Vercel
+.vercel
+
+# Environment variables
+.env*
+!.env.example
